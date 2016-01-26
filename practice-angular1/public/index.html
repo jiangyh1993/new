@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="libs/underscore/underscore.js"></script>
+    <script type="text/javascript" src="libs/angular/angular.js"></script>
+</head>
+
+<body ng-app="main" >
+    <login></login>
+    <div class="container" ng-controller="UserCtrl as user">
+        <div ng-include="'user.html'"></div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="login.js"></script>
+</body>
+
+</html>

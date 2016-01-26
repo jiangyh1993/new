@@ -1,0 +1,22 @@
+{
+  "name": "angular-practice",
+  "description": "",
+  "main": "",
+  "authors": [
+    "jiangyh1993 <158840284@qq.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.8.3"
+  }
+}
